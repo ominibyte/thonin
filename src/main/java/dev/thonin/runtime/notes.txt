@@ -1,0 +1,9 @@
+As mdns is used for the local network, this means that discoveries can be made from
+End Devices -> Edge Device
+Edge Device -> Fog Device (Possibly)
+Communicating with other levels require other protocols like CoAP. This means that Each App needs to have a config
+file where the IP address would be configured, using a custom DSL which we can make compatible with a subset of TOSCA
+
+
+Any level within the stack can be missing like the implementation could be from End Device directly to the Cloud or
+it could just be an application for the Edge device or End device so the config file would need to specify these details

@@ -3,6 +3,7 @@ package dev.thonin.common;
 public class AppInfo {
     public static String appName;
     public static String appVersion;
+    public static String build;
 
     public static String getAppName(){
         return appName;

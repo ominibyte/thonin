@@ -8,7 +8,6 @@ import java.lang.annotation.*;
  * There will only be one instance of a Logger so it will be created in a factory class. If it has been created, we will
  * simply return the same instance. The same logger can be used in different classes
  */
-@Documented
 @Repeatable(Loggers.class)
 @Retention(RetentionPolicy.CLASS)
 @Target(ElementType.TYPE)
